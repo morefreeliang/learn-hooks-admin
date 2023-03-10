@@ -1,0 +1,44 @@
+{
+  "name": "open-source-project",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "style": "stylelint 'src/**/*.(css|less)' --fix",
+    "eslint": "eslint .",
+    "prettierlint": "yarn prettier --write ."
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.9.3",
+    "@types/lodash": "^4.14.191",
+    "lodash": "^4.17.21",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.0.5",
+    "redux-persist": "^6.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.14.6",
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@typescript-eslint/eslint-plugin": "^5.54.1",
+    "@typescript-eslint/parser": "^5.54.1",
+    "@vitejs/plugin-react": "^3.1.0",
+    "eslint": "^8.35.0",
+    "eslint-config-prettier": "^8.7.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "less": "^4.1.3",
+    "prettier": "^2.8.4",
+    "stylelint": "^15.2.0",
+    "stylelint-config-prettier": "^9.0.5",
+    "stylelint-config-recess-order": "^4.0.0",
+    "stylelint-config-standard": "^30.0.1",
+    "stylelint-less": "^1.0.6",
+    "typescript": "^4.9.3",
+    "vite": "^4.1.0"
+  }
+}
