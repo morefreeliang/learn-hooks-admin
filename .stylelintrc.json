@@ -1,31 +1,28 @@
-
 {
-    "extends": [
-        "stylelint-config-standard",
-        "stylelint-config-prettier",
-        "stylelint-config-recess-order"
-    ],
-    "plugins": [
-        "stylelint-less"
-    ],
-    "rules": {
-        "no-descending-specificity": null,
-        "function-url-quotes": "always", 
-        "string-quotes": "double",
-        "indentation": 4,
-        "unit-case": "lower",
-        "color-hex-case": "lower",
-        "color-hex-length": "long",
-        "rule-empty-line-before": "never",
-        "font-family-no-missing-generic-family-keyword": null,
-        "block-opening-brace-space-before": "always",
-        "property-no-unknown": true,
-        "no-empty-source": null,
-        "selector-pseudo-class-no-unknown": [ 
-            true,
-            {
-                "ignorePseudoClasses": ["deep"]
-            }
-        ]
-    }
+	"extends": [
+		"stylelint-config-standard",
+		"stylelint-config-prettier",
+		"stylelint-config-recess-order"
+	],
+	"plugins": ["stylelint-less"],
+	"rules": {
+		"no-descending-specificity": null,
+		"function-url-quotes": "always",
+		"string-quotes": "double",
+		"indentation": 4,
+		"unit-case": "lower",
+		"color-hex-case": "lower",
+		"color-hex-length": "long",
+		"rule-empty-line-before": "never",
+		"font-family-no-missing-generic-family-keyword": null,
+		"block-opening-brace-space-before": "always",
+		"property-no-unknown": true,
+		"no-empty-source": null,
+		"selector-pseudo-class-no-unknown": [
+			true,
+			{
+				"ignorePseudoClasses": ["deep"]
+			}
+		]
+	}
 }

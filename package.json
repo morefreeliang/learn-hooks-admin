@@ -19,10 +19,10 @@
 	},
 	"lint-staged": {
 		"src/**": [
-			"prettier --write --ignore-unknown",
+			"prettier --config .prettierrc.json --write",
 			"eslint --fix",
 			"git add"
-		] 
+		]
 	},
 	"dependencies": {
 		"@reduxjs/toolkit": "^1.9.3",
