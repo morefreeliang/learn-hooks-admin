@@ -22,7 +22,7 @@
 			"jsx": true
 		}
 	},
-	"plugins": ["react", "@typescript-eslint", "react-hooks","html"],
+	"plugins": ["react", "@typescript-eslint", "react-hooks", "html"],
 	"rules": {
 		// eslint-plugin-react规则
 		"react/jsx-uses-react": "error",
@@ -31,6 +31,7 @@
 		"react-hooks/rules-of-hooks": "error",
 		"react-hooks/exhaustive-deps": "warn",
 		"no-var": "error",
-		"quotes": ["warn", "double"]
+		"quotes": ["warn", "double"],
+		"no-console": "error"
 	}
 }
