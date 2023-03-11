@@ -12,8 +12,17 @@
 		"prettierlint": "yarn prettier --write .",
 		"prepare": "husky install"
 	},
+	"husky": {
+		"hooks": {
+			"pre-commit": "lint-staged"
+		}
+	},
 	"lint-staged": {
-		"**/*": "prettier --write --ignore-unknown"
+		"src/**": [
+			"prettier --write --ignore-unknown",
+			"eslint --fix",
+			"git add"
+		] 
 	},
 	"dependencies": {
 		"@reduxjs/toolkit": "^1.9.3",
